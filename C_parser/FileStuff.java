@@ -9,7 +9,7 @@ public class FileStuff {
 
 	static BufferedReader bufferedReaderObject;
 	static String lastRead="",inputProgram ="",tobefiltered;
-	static String fileName = "E:/First_Semester/MFC/parser/jlex/2input3.c";
+	static String fileName = "/sdcard/AppProjects/ARMDisasm/jni/cs.c";
 	static StringTokenizer st;
 	static boolean commentFlag = false;
 	static boolean debugMode = true;
@@ -57,7 +57,6 @@ public class FileStuff {
 			myscanner.eofFlag = true ;
 			return " ";
 		}
-	}
-	  
+	}  
 }
 
